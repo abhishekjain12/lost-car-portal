@@ -15,7 +15,12 @@ export class Constant {
   public static readonly ANY = 'any';
   public static readonly EMAIL = 'email';
   public static readonly STATUS = 'status';
+  public static readonly COMPLAINT_BY = 'complaint_by';
   public static readonly UPDATED_AT = 'updated_at';
+
+  public static readonly COMPLAINT_STATUS = {
+    ACCEPTED: 'ACCEPTED'
+  };
 }
 
 export class Messages {
